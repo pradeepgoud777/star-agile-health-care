@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: healthcare
-        image: vikuldocker/healthcare-vikul:1
+        image: pradeepgoud77/healthcare-pradeep:1
         ports:
         - containerPort: 8082
 
@@ -30,4 +30,4 @@ spec:
   ports:
     - port: 80
       targetPort: 8082
-      nodePort: 30007
+      nodePort: 3008
